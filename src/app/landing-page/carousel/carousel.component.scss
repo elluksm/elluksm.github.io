@@ -1,0 +1,8 @@
+@import '../../../scss/variables';
+@import '../../../scss/mixins';
+
+.container-carousel {
+    height: 600px;
+    background-image: $carousel-img;
+    background-size: cover;
+}
