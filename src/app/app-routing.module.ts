@@ -6,7 +6,7 @@ import { ToDoListComponent }      from './to-do-list/to-do-list.component';
 import { LoginComponent }      from './login/login.component';
 
 const routes: Routes = [
-  { path: '/', component: LandingPageComponent },
+  { path: '', component: LandingPageComponent },
   { path: 'myRoutes', component: MyRoutesComponent },
   { path: 'toDoList', component: ToDoListComponent },
   { path: 'login', component: LoginComponent }
